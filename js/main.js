@@ -3,8 +3,8 @@ let cambio = document.getElementById('cambio');
 
 botonReinicio.addEventListener('click', () => {
 
-    let dineroRecivido = window.prompt('¿Cuanto de dinero le dieron?');
-    let totalCobrar = window.prompt('¿Cuanto tine que cobrar?');
+    let dineroRecivido = Number(window.prompt("¿Cuanto de dinero le dieron?", ""));
+    let totalCobrar = Number(window.prompt('¿Cuanto tine que cobrar?', ""));
 
     let total = () => dineroRecivido - totalCobrar
 
