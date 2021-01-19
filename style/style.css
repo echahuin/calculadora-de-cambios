@@ -1,0 +1,24 @@
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.button {
+    border-radius: 50px;
+    border: 1px solid green;
+    width: 7rem;
+    height: 2rem;
+    padding-top: 14px;
+    box-shadow: 5px 6px #888888;
+}
+
+.button .spanButton {
+    color: rgb(184, 41, 41);
+    margin-left: 14px;
+}
